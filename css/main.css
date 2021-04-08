@@ -1,3 +1,39 @@
+/* --------------- */
+/* estructura
+1. posicionamiento
+2. modelo de caja (box model)
+3. tipografias
+4. visuales
+5. otros
+*/
+
+:root {
+    /*    colores */
+    --linear-bg: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D5;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --warm-black-plus: #282623;
+    --grey: #BABABA;
+    --off-white: #FAF8F7;
+    --just-white: #FFFFFF;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+/* ------------------------------------------- */
+/* 3. tipografias */
 /* dm-sans-regular - latin */
 @font-face {
     font-family: 'DM Sans';
@@ -5,12 +41,9 @@
     font-weight: 400;
     src: url('../fonts/DM_Sans/dm-sans-v6-latin-regular.eot'); /* IE9 Compat Modes */
     src: local(''),
-    url('../fonts/DM_Sans/dm-sans-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/DM_Sans/dm-sans-v6-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/DM_Sans/dm-sans-v6-latin-regular.woff') format('woff'), /* Modern Browsers */
-    url('../fonts/DM_Sans/dm-sans-v6-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/DM_Sans/dm-sans-v6-latin-regular.svg#DMSans') format('svg'); /* Legacy iOS */
+    url('../fonts/DM_Sans/dm-sans-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/DM_Sans/dm-sans-v6-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/DM_Sans/dm-sans-v6-latin-regular.woff') format('woff'), /* Modern Browsers */ url('../fonts/DM_Sans/dm-sans-v6-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/DM_Sans/dm-sans-v6-latin-regular.svg#DMSans') format('svg'); /* Legacy iOS */
 }
+
 /* dm-sans-500 - latin */
 @font-face {
     font-family: 'DM Sans';
@@ -18,12 +51,9 @@
     font-weight: 500;
     src: url('../fonts/DM_Sans/dm-sans-v6-latin-500.eot'); /* IE9 Compat Modes */
     src: local(''),
-    url('../fonts/DM_Sans/dm-sans-v6-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/DM_Sans/dm-sans-v6-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/DM_Sans/dm-sans-v6-latin-500.woff') format('woff'), /* Modern Browsers */
-    url('../fonts/DM_Sans/dm-sans-v6-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/DM_Sans/dm-sans-v6-latin-500.svg#DMSans') format('svg'); /* Legacy iOS */
+    url('../fonts/DM_Sans/dm-sans-v6-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/DM_Sans/dm-sans-v6-latin-500.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/DM_Sans/dm-sans-v6-latin-500.woff') format('woff'), /* Modern Browsers */ url('../fonts/DM_Sans/dm-sans-v6-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/DM_Sans/dm-sans-v6-latin-500.svg#DMSans') format('svg'); /* Legacy iOS */
 }
+
 /* dm-sans-700 - latin */
 @font-face {
     font-family: 'DM Sans';
@@ -31,11 +61,7 @@
     font-weight: 700;
     src: url('../fonts/DM_Sans/dm-sans-v6-latin-700.eot'); /* IE9 Compat Modes */
     src: local(''),
-    url('../fonts/DM_Sans/dm-sans-v6-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/DM_Sans/dm-sans-v6-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/DM_Sans/dm-sans-v6-latin-700.woff') format('woff'), /* Modern Browsers */
-    url('../fonts/DM_Sans/dm-sans-v6-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/DM_Sans/dm-sans-v6-latin-700.svg#DMSans') format('svg'); /* Legacy iOS */
+    url('../fonts/DM_Sans/dm-sans-v6-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/DM_Sans/dm-sans-v6-latin-700.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/DM_Sans/dm-sans-v6-latin-700.woff') format('woff'), /* Modern Browsers */ url('../fonts/DM_Sans/dm-sans-v6-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/DM_Sans/dm-sans-v6-latin-700.svg#DMSans') format('svg'); /* Legacy iOS */
 }
 
 /* ---- */
@@ -47,12 +73,9 @@
     font-weight: 300;
     src: url('../fonts/Inter/inter-v3-latin-300.eot'); /* IE9 Compat Modes */
     src: local(''),
-    url('../fonts/Inter/inter-v3-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/Inter/inter-v3-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/Inter/inter-v3-latin-300.woff') format('woff'), /* Modern Browsers */
-    url('../fonts/Inter/inter-v3-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/Inter/inter-v3-latin-300.svg#Inter') format('svg'); /* Legacy iOS */
+    url('../fonts/Inter/inter-v3-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/Inter/inter-v3-latin-300.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/Inter/inter-v3-latin-300.woff') format('woff'), /* Modern Browsers */ url('../fonts/Inter/inter-v3-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/Inter/inter-v3-latin-300.svg#Inter') format('svg'); /* Legacy iOS */
 }
+
 /* inter-regular - latin */
 @font-face {
     font-family: 'Inter';
@@ -60,12 +83,9 @@
     font-weight: 400;
     src: url('../fonts/Inter/inter-v3-latin-regular.eot'); /* IE9 Compat Modes */
     src: local(''),
-    url('../fonts/Inter/inter-v3-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/Inter/inter-v3-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/Inter/inter-v3-latin-regular.woff') format('woff'), /* Modern Browsers */
-    url('../fonts/Inter/inter-v3-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/Inter/inter-v3-latin-regular.svg#Inter') format('svg'); /* Legacy iOS */
+    url('../fonts/Inter/inter-v3-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/Inter/inter-v3-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/Inter/inter-v3-latin-regular.woff') format('woff'), /* Modern Browsers */ url('../fonts/Inter/inter-v3-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/Inter/inter-v3-latin-regular.svg#Inter') format('svg'); /* Legacy iOS */
 }
+
 /* inter-500 - latin */
 @font-face {
     font-family: 'Inter';
@@ -73,9 +93,6 @@
     font-weight: 500;
     src: url('../fonts/Inter/inter-v3-latin-500.eot'); /* IE9 Compat Modes */
     src: local(''),
-    url('../fonts/Inter/inter-v3-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/Inter/inter-v3-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/Inter/inter-v3-latin-500.woff') format('woff'), /* Modern Browsers */
-    url('../fonts/Inter/inter-v3-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/Inter/inter-v3-latin-500.svg#Inter') format('svg'); /* Legacy iOS */
+    url('../fonts/Inter/inter-v3-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/Inter/inter-v3-latin-500.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/Inter/inter-v3-latin-500.woff') format('woff'), /* Modern Browsers */ url('../fonts/Inter/inter-v3-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/Inter/inter-v3-latin-500.svg#Inter') format('svg'); /* Legacy iOS */
 }
+
