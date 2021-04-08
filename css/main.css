@@ -27,7 +27,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 62.5%; /* para poder activar uso de tamaño en rem */
     font-family: "DM Sans", sans-serif;
 }
 
