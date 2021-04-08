@@ -96,3 +96,35 @@ html {
     url('../fonts/Inter/inter-v3-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/Inter/inter-v3-latin-500.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/Inter/inter-v3-latin-500.woff') format('woff'), /* Modern Browsers */ url('../fonts/Inter/inter-v3-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/Inter/inter-v3-latin-500.svg#Inter') format('svg'); /* Legacy iOS */
 }
 
+/* ---------------- */
+
+/*1. posicionamiento*/
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    height: 24px;
+    margin-top: 60px;
+    align-self: center;
+}
+
+.header-title-container {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 40px;
+    text-align: center;
+    align-self: center;
+}
+
+/* home */
