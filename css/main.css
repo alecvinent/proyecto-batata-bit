@@ -324,3 +324,51 @@ main {
 .commision-table---date {
     background-color: var(--soft-blue);
 }
+
+/* main-product-container */
+.main-product-container {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+
+.main-product-container .icon-potato {
+    position: absolute;
+    background: url("../assets/icons/batata.svg") center;
+    width: 40px;
+    height: 25px;
+    top: -10px;
+    left: calc(50% - 30px);
+    margin: 0 auto;
+}
+
+.product-detail--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.product-detail--title h2 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: var(--just-white);
+    margin-bottom: 20px;
+}
+
+.product-detail--title p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #808080;
+    margin-bottom: 20px;
+}
+
+.product-cards--container {}
