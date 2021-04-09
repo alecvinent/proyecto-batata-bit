@@ -218,3 +218,16 @@ main {
     color: #757575;
     font-weight: 500;
 }
+
+.main-exchange-tables-container {
+
+}
+
+.trending-down {
+    background: url("../assets/icons/trending-down.svg") center no-repeat;
+    border: 1px solid #F5450D;
+}
+.trending-up {
+    background: url("../assets/icons/trending-up.svg") center no-repeat;
+    border: 1px solid #F5450D;
+}
