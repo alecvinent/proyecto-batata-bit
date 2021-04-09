@@ -219,15 +219,51 @@ main {
     font-weight: 500;
 }
 
-.main-exchange-tables-container {
+.main-currency-table {
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
 
+    font-family: "Inter", sans-serif;
+}
+
+.main-currency-table .currency-table--title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--bitcoin-orange);
+}
+
+.currency-table-container {
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.currency-table-container table {
+    width: 100%;
+    height: 100%;
+}
+
+.currency-table-container td {
+    width: 50%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    background-color: var(--just-white);
 }
 
 .trending-down {
     background: url("../assets/icons/trending-down.svg") center no-repeat;
     border: 1px solid #F5450D;
 }
+
 .trending-up {
     background: url("../assets/icons/trending-up.svg") center no-repeat;
-    border: 1px solid #F5450D;
+    border: 1px solid #07D635;
 }
