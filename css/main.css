@@ -188,7 +188,12 @@ main {
 }
 
 .main-exchange-img-bg {
-
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background: url("../assets/img/bitcoin.svg") center no-repeat;
+    background-size: cover;
+    margin-bottom: 40px;
 }
 
 .main-exchange-container-title {
@@ -196,4 +201,20 @@ main {
     min-width: 288px;
     max-width: 900px;
     margin: 0 auto; /* centrar */
+}
+
+.main-exchange-container-title h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 30px;
+    color: var(--warm-black);
+}
+
+.main-exchange-container-title p {
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #757575;
+    font-weight: 500;
 }
