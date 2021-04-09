@@ -426,3 +426,26 @@ main {
     line-height: 18px;
     color: #808080;
 }
+
+/* main-know-it-container */
+.main-know-it-container {
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background: url("../assets/img/bitcoinbaby2x.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.main-know-it-container div {
+    text-align: center;
+    width: 90%;
+    padding-top: 60px;
+    margin: 0 auto;
+}
+
+.main-know-it-container h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: var(--just-white);
+}
