@@ -388,29 +388,38 @@ main {
     display: inline-block;
     width: 20px;
     height: 20px;
-    top: -10px;
-    left: calc(50% - 30px);
-    margin-bottom: 10px;
 }
 
 .icon-clock {
     background: url("../assets/icons/clock.svg") center no-repeat;
     background-size: cover;
+    top: -10px;
+    left: calc(50% - 30px);
+    margin-bottom: 10px;
 }
 
 .icon-eye {
     background: url("../assets/icons/eye.svg") center no-repeat;
     background-size: cover;
+    top: -10px;
+    left: calc(50% - 30px);
+    margin-bottom: 10px;
 }
 
 .icon-currency {
     background: url("../assets/icons/dollar-sign.svg") center no-repeat;
     background-size: cover;
+    top: -10px;
+    left: calc(50% - 30px);
+    margin-bottom: 10px;
 }
 
 .icon-target {
     background: url("../assets/icons/check-circle.svg") center no-repeat;
     background-size: cover;
+    top: -10px;
+    left: calc(50% - 30px);
+    margin-bottom: 10px;
 }
 
 .product-detail--card .product-card-title {
@@ -549,4 +558,25 @@ main {
     font-weight: 500;
     width: 158px;
     margin: 0 auto;
+}
+
+.plan-card--call-to-action {
+    background-color: var(--off-white);
+    width: 150px;
+    height: 48px;
+    margin-top: 10px;
+    padding: 12px 16px 12px 16px;
+    border: 2px solid #F7931A;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: var(--warm-black);
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+}
+
+.icon-arrow-right {
+    background: url("../assets/icons/arrow-right.png") center no-repeat;
+    background-size: cover;
+    vertical-align: text-bottom;
 }
