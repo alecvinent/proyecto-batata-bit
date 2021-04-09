@@ -454,11 +454,32 @@ main {
 .main-plans-container {
     background-color: var(--off-white);
     text-align: center;
-    width: 80%;
+    width: 100%;
+    min-width: 320px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-bottom: 30px;
 }
 
-.main-plans-container h2 {
+.plans-title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.plans-title h2 {
     font-weight: 700;
     font-size: 24px;
     line-height: 26px;
+    color: var(--warm-black);
+    padding-top: 50px;
+}
+
+.plans-title p {
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #757575;
 }
